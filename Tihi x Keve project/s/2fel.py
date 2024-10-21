@@ -98,6 +98,7 @@ if szoveg:
 #új elem beszúrása
    
 uj_elem = input("Adj meg egy új elemet: ")
+irany = input("Az új elem beszúrásának iránya növekvő vagy csökkenő legyen? ")
 
 if uj_elem.isdigit():  
     uj_elem = int(uj_elem)
